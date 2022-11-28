@@ -11,33 +11,120 @@ sans-serif;
 background: #FFFFFF;
 color: var(--text-brand-color);
 }
+
+/* logo */
+.logo-type-first {
+    color: var(--prymery-band-color);
+    width: 44px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.logo-type-second {
+    color: var(--dark-brand-color);
+    width: 71px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* tags */
 a {
     text-decoration: none;
 }
 .display-none {
     display: none;
 }
-.logo-type-first {
-    color: var(--prymery-band-color);
-    width: 44px;
-        height: 24px;
-        font-family: 'Raleway';
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 24px;
-}
-.logo-type-second {
-    color: var(--dark-brand-color);
-    width: 71px;
-        height: 24px;
-        font-family: 'Raleway';
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 24px;
-}
 ul {
     list-style: none;
 }
+
+/* firstpage */
+/* hero */
+.section-hero {
+    background-color: var(--dark-brand-color);
+}
+.hero {
+    width: 492px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+}
+/* button */
+.button-order {
+    width: 170px;
+    height: 51px;
+    background-color: var(--prymery-band-color);
+    color:#FFFFFF;
+    font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
+background: var(--prymery-band-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+}
+.button-order:active {
+background-color:#404BBF ;
+}
+
+/* advances */
+
+.advances-h {
+    color: var(--dark-brand-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.advances-text {
+    width: 264px;
+    color: var(--text-brand-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.titlesecond {
+    color: var(--dark-brand-color);
+    font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+}
+
+/* our team */
+
+.peoplename {
+    color: var(--dark-brand-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.teamteam {
+    color: var(--text-brand-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* portfolio */
 /* navigation */
 .navigation .navigation-link {
     color: var(--dark-brand-color);
